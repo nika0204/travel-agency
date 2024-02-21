@@ -1,0 +1,123 @@
+.offer {
+
+    &__title {
+        @include title;
+    }
+
+    &__group-btn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 60px;
+    }
+
+    &__btn {
+
+        width: 148px;
+        color: $orange;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 0.72px;
+        border-radius: 25px;
+        border: 1px solid $orange;
+        background: #FFF;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+
+    &__btn-active,
+    &__btn:hover {
+        color: #fff;
+        background-color: $orange;
+        transition: 0.3s ease-in-out;
+    }
+
+    &__card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 34px;
+        margin: 0 10px;
+    }
+
+    &__card-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 396px;
+        background-color: #f7f7f7;
+        margin: 0 10px;
+        border-radius: 25px;
+        font-size: 18px;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    &__card-item:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+
+    }
+
+    &__card-img-img {
+        border-radius: 23px 23px 0px 0px;
+        height: 260px;
+        width: 396px;
+    }
+
+    &__card-title {
+        color: $blue;
+        font-weight: 400;
+        margin: 15px 0px;
+        white-space: nowrap;
+        padding: 0 10px;
+    }
+
+    &__card-descr {
+        color: $black;
+        font-weight: 300;
+        line-height: 91%;
+        font-size: 18px;
+        margin-bottom: 35px;
+        padding: 0 5px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+
+    &__card-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        
+
+    }
+
+    &__card-tag {
+        display: flex;
+        color: $pink;
+
+        text-align: start;
+        width: 70%;
+        margin-left: 5px;
+    }
+
+    &__card-price {
+        color: $green;
+        margin-right: 5px;
+    }
+}
+
+@media( max-width: 430px){
+    .offer{
+        &__title{
+            font-size: 44px;
+            white-space: wrap;
+        }
+    }
+}
+

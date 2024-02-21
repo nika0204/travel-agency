@@ -1,0 +1,78 @@
+@use './vars';
+
+.reviews {
+    &__title {
+        @include title;
+    }
+
+    &__subtitle {
+        @include subtitle;
+    }
+}
+
+.splide {
+    height: 350px;
+    margin-bottom: 100px;
+
+    &__slide {
+        height: 300px;
+        margin: 20px;
+        max-width: 47%;
+        background-color: #fff;
+        border-radius: 25px;
+        filter: drop-shadow(2px 4px 6px #5a5959);
+    }
+
+
+    &__top {
+        margin-top: 10px;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__bottom {
+        text-align: center;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        padding: 10px 10px 0;
+    }
+
+    &__pagination__page {
+        background: $black;
+    }
+
+    &__pagination__page.is-active {
+        background: $blue;
+    }
+    &__pagination{
+         bottom: -20px;
+    }
+
+}
+
+
+@media (max-width: 700px){
+  .splide__slide {
+    max-width: 95%;
+   
+    margin: 20px 15px;
+    
+  }  
+  
+   
+
+  
+}
+@media (max-width: 380px){
+  .splide__slide {
+    margin: 20px 10px;
+  }  
+  
+   
+
+  
+}

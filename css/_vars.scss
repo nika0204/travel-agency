@@ -1,0 +1,39 @@
+$font: 'Inter', sans-serif; //font-family: 'Inter', sans-serif;
+$font-title: "Joti One", serif;
+
+
+$black: #0E0D1D;
+$white: #EAE4E4;
+$orange: #E99131;
+$blue: #243690;
+$pink: #EF9595;
+$green: #a1ef8d;
+
+@mixin title {
+    font-family: $font-title;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 200px 0 16px;
+    color: $blue;
+
+}
+
+@mixin subtitle{
+    font-family: $font;
+    color: $orange;
+    line-height: 120%;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+@mixin text {
+    font-family: $font;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400;
+    padding: 0 10px;
+}

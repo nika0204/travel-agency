@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Travel agency">
+  <meta name="googlebot" content="index" />
+  <title>HorizonWay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Joti+One&display=swap"
+    rel="stylesheet">
+  <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="wrrap">
+    <div class="baground">
+
+
+      <header class="header">
+        <div class="container">
+          <div class="header_inner">
+            <a class="header_logo" href="index.html">HorizonWay</a>
+            <div class="header_nav">
+              <ul class="header_list">
+                <li class="header_list-item "><a href="#offer">way</a></li>
+                <li class="header_list-item "><a href="#reviews">ABOUT</a></li>
+                <li class="header_list-item"><a href="#">HOME</a></li>
+                <li class="header_list-item"><a href="#footer">CONTACT</a></li>
+              </ul>
+            </div>
+            <div class="header_mobile-menu" onclick="vkl()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+          </div>
+        </div>
+
+
+      </header>
+      <div class="main">
+        <div class="container">
+          <div class="main__wrrap">
+            <h1 class="main__title">Plan Your Dream Trip!</h1>
+            <p class="main__text">Welcome to HorizonWay, where every journey is an adventure waiting
+              to
+              unfold. Immerse yourself in a world of unparalleled travel experiences, meticulously crafted
+              to
+              captivate your senses and ignite your wanderlust.
+            </p>
+            <a href="#offer" class="main__link">Explore </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="offer" id="offer">
+      <div class="offer__title ">Top Destination </div>
+      <div class="offer__group-btn">
+        <div class="offer__btn offer__btn-active" data-filter="All">All</div>
+        <div class="offer__btn" data-filter="Popular">Popular</div>
+        <div class="offer__btn" data-filter="Beaches">Beaches</div>
+        <div class="offer__btn" data-filter="Mountain">Mountain</div>
+        <div class="offer__btn" data-filter="Cities">Cities</div>
+        <div class="offer__btn" data-filter="Exclusiv">Exclusive</div>
+      </div>
+      <div class="offer__card">
+        <div class="offer__card-item Beaches">
+          <div class="offer__card-img">
+            <img class="offer__card-img-img" src="./img/Elafonissi_Beach.png" alt="">
+          </div>
+          <div class="offer__card-title">Elafonissi Beach, Crete, Greece</div>
+          <div class="offer__card-descr">Elafonissi Beach in Crete, Greece, is a stunning paradise known for its
+            unique pink sand and clear turquoise waters. </div>
+          <div class="offer__card-info">
+            <div class="offer__card-tag">#beaches</div>
+            <div class="offer__card-price">$500/person</div>
+          </div>
+        </div>
+        <div class="offer__card-item Cities Popular ">
+          <div class="offer__card-img">
+            <img class="offer__card-img-img" src="./img/dubai-beach.jpg" alt="">
+          </div>
+          <div class="offer__card-title">Dubai, United Arab Emirates</div>
+          <div class="offer__card-descr">Dubai, a city synonymous with luxury and opulence, boasts some of the world's
+            most extraordinary beaches, each a testament to the city's grandeur and innovation. </div>
+          <div class="offer__card-info">
+            <div class="offer__card-tag"> #city #popular</div>
+            <div class="offer__card-price">$900/person</div>
+          </div>
+        </div>
+        <div class="offer__card-item  Mountain Exclusiv">
+          <div class="offer__card-img">
+            <img class="offer__card-img-img" src="./img/Mont_Blanc.jpg" alt="">
+          </div>
+          <div class="offer__card-title">Mont Blanc, France, Italy, <br> Switzerland</div>
+          <div class="offer__card-descr">Winding its way across the borders of three different countries, France,
+            Italy and Switzerland, the Tour du Mont Blanc is the starting point for many Alpine hikers. </div>
+          <div class="offer__card-info">
+            <div class="offer__card-tag">#mount #exclusive</div>
+            <div class="offer__card-price">$800/person</div>
+          </div>
+        </div>
+        <div class="offer__card-item Beaches">
+          <div class="offer__card-img">
+            <img class="offer__card-img-img" src="./img/Seychelles.jpg" alt="">
+          </div>
+          <div class="offer__card-title">Anse Source d'Argent, <br>Seychelles</div>
+          <div class="offer__card-descr">The mixture of shallow, clear water, golden sand, and imposing granite
+            formations make it one of the most picturesque beaches anywhere in the world </div>
+
+          <div class="offer__card-info">
+            <div class="offer__card-tag"> #beaches</div>
+            <div class="offer__card-price">$850/person</div>
+          </div>
+        </div>
+        <div class="offer__card-item Cities">
+          <div class="offer__card-img">
+            <img class="offer__card-img-img" src="./img/Zürich.jpg" alt="">
+          </div>
+          <div class="offer__card-title">Zürich, Switzerland</div>
+          <div class="offer__card-descr">Nestled at the heart of Switzerland, Zürich captivates visitors with its
+            harmonious blend of rich history and contemporary allure. This cosmopolitan city, situated along the
+            picturesque shores of Lake Zürich </div>
+          <div class="offer__card-info">
+            <div class="offer__card-tag"> #city</div>
+            <div class="offer__card-price">$900/person</div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="service">
+      <div class="container">
+        <div class="service__title">We Offer Best Services</div>
+        <div class="service__subtitle">Why choose us?</div>
+        <div class="service__wrapp">
+          <div class="service__left">
+            <p class="service__text">At HorizonWay, we pride ourselves on offering the best services to
+              turn your travel
+              dreams into reality. With a commitment to excellence and a passion for crafting memorable experiences
+            </p>
+            <div class="service__card">
+              <img src="./img/custom.svg" alt="" class="service__card-img">
+              <div class="service__card-fill">
+                <div class="service__card-title">Customized routes</div>
+                <div class="service__card-decr">We curate personalized travel plans that cater to your preferences,
+                  ensuring each trip is a reflection of your dreams.</div>
+              </div>
+            </div>
+            <div class="service__card">
+              <img src="./img/expert.svg" alt="" class="service__card-img">
+              <div class="service__card-fill">
+                <div class="service__card-title">Expert Guidance</div>
+                <div class="service__card-decr">Our team of experienced travel advisors is dedicated to providing expert
+                  guidance.</div>
+              </div>
+            </div>
+            <div class="service__card">
+              <img src="./img/exclusive.svg" alt="" class="service__card-img">
+              <div class="service__card-fill">
+                <div class="service__card-title">Exclusive Access</div>
+                <div class="service__card-decr">Enjoy exclusive perks and privileges with our extensive network of
+                  partners. From luxury accommodations to insider experiences</div>
+              </div>
+            </div>
+          </div>
+          <div class="service__right">
+            <img class="service__right-img" src="./img/service.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="find">
+      <div class="container">
+        <div class="find__title">We Help To Find Your Dream Place</div>
+        <div class="find__subtitle"> Travel Point </div>
+        <div class="find__wrrap">
+          <div class="find__left">
+            <div><img class="find__img" src="./img/Rectangle19333.png" alt=""></div>
+            <div><img class="find__img2" src="./img/Rectangle19334.png" alt=""></div>
+
+          </div>
+          <div class="find__right">
+            <p class="find__text">
+              Embark on a journey of discovery with us at HorizonWay. We specialize in turning your
+              travel dreams into reality, helping you uncover your perfect getaway destination. Whether you crave the
+              sun-kissed shores of a tropical paradise, the rich history of an ancient city, or the breathtaking beauty
+              of a mountain retreat, we're here to guide you every step of the way.
+            </p>
+            <div class="find__inner">
+              <div class="find__inner-info"> <span>100+</span> <br> Holiday Package</div>
+              <div class="find__inner-info"> <span>172</span> <br> Hotels</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews" id="reviews">
+      <div class="container">
+        <div class="reviews__title">What customers say about us</div>
+        <div class="reviews__subtitle">Reviews</div>
+        <section class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">Fatima T</div>
+                  </div>
+                  <div class="splide__bottom">
+                    Our trip organized by the travel agency was beyond my expectations! From zip-lining through lush
+                    canopies to exploring hidden gems, every moment felt like a thrilling adventure. Kudos to the team
+                    for making it a trip of a lifetime!
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">John L</div>
+                  </div>
+                  <div class="splide__bottom">
+                    The travel agency curated a cultural extravaganza for us. From historic landmarks to local
+                    traditions, every part of the itinerary was thoughtfully planned. I'm grateful for the immersive
+                    experiences that allowed us to truly connect with the destinations.
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">Emily K</div>
+                  </div>
+                  <div class="splide__bottom">
+                    A big thank you to the travel agency for crafting a perfect escape for me. The serene beaches, spa
+                    retreats, and tranquil landscapes created a haven of relaxation. It was exactly what I needed, and
+                    I'm already looking forward to my next getaway!
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">Alex W</div>
+                  </div>
+                  <div class="splide__bottom">
+                    My culinary journey organized by the travel agency was a gastronomic delight! From street food
+                    markets to fine dining experiences, I savored every flavor. The attention to the local food scene
+                    showcased their commitment to creating a unique and delicious adventure.
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">Sophia H</div>
+                  </div>
+                  <div class="splide__bottom">
+                    Traveling with the family was a breeze, thanks to the travel agency's meticulous planning.
+                    Kid-friendly activities, comfortable accommodations, and stress-free logistics made our family
+                    vacation truly enjoyable. Creating memories that will last a lifetime!
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">David P</div>
+                  </div>
+                  <div class="splide__bottom">
+                    The travel agency knows how to define luxury! From opulent accommodations to exclusive experiences,
+                    every moment exuded sophistication. The attention to detail and personalized service elevated the
+                    entire trip. An exquisite journey that exceeded all expectations
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">Fatima Taylor</div>
+                  </div>
+                  <div class="splide__bottom">
+                    Our trip organized by the travel agency was beyond my expectations! From zip-lining through lush
+                    canopies to exploring hidden gems, every moment felt like a thrilling adventure. Kudos to the team
+                    for making it a trip of a lifetime!
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">Fatima Taylor</div>
+                  </div>
+                  <div class="splide__bottom">
+                    Our trip organized by the travel agency was beyond my expectations! From zip-lining through lush
+                    canopies to exploring hidden gems, every moment felt like a thrilling adventure. Kudos to the team
+                    for making it a trip of a lifetime!
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__wrrap">
+                  <div class="splide__top">
+                    <img src="./img/review1.png" alt="">
+                    <div class="splide__name">Fatima Taylor</div>
+                  </div>
+                  <div class="splide__bottom">
+                    Our trip organized by the travel agency was beyond my expectations! From zip-lining through lush
+                    canopies to exploring hidden gems, every moment felt like a thrilling adventure. Kudos to the team
+                    for making it a trip of a lifetime!
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="container">
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__wrrap">
+        <div class="footer__wrrap-left">
+          <div class="footer__logo">HorizonWay</div>
+          <ul class="footer_list ">
+            <li class="footer_list-item header_list-item"><a href="#offer">way</a></li>
+            <li class="footer_list-item header_list-item"><a href="#reviews">ABOUT</a></li>
+            <li class="footer_list-item header_list-item"><a href="#">HOME</a></li>
+            <li class="footer_list-item header_list-item"><a href="#footer">CONTACT</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="footer__contact">
+          <div class="footer__contact--title footer__logo">CONTACT</div>
+          <a href="mailto:horizonway@gmail.com" class="footer__link">Email: horizonway@gmail.com</a>
+          <a href="tel:+3800006000">Tel: +38000060000</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 Porytska Veronika</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
